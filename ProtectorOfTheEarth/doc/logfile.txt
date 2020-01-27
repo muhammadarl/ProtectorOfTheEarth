@@ -1,0 +1,29 @@
+Class documentation
+<---- javadoc command: ---->
+D:\other application\greenfoot\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-protected
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+D:\other application\greenfoot\lib\extensions\greenfoot.jar;D:\other application\greenfoot\lib\bluejcore.jar;D:\other application\greenfoot\lib\bluejeditor.jar;D:\other application\greenfoot\lib\bluejext.jar;D:\other application\greenfoot\lib\junit-4.11.jar;D:\other application\greenfoot\lib\hamcrest-core-1.3.jar;D:\other application\greenfoot\lib\bluej.jar;D:\other application\greenfoot\lib\classgraph-4.2.6.jar;D:\other application\greenfoot\lib\diffutils-1.2.1.jar;D:\other application\greenfoot\lib\commons-logging-api-1.1.2.jar;D:\other application\greenfoot\lib\jl1.0.1.jar;D:\other application\greenfoot\lib\opencsv-2.3.jar;D:\other application\greenfoot\lib\xom-1.2.9.jar;D:\other application\greenfoot\lib\lang-stride.jar;D:\other application\greenfoot\lib\nsmenufx-2.1.4.jar;D:\other application\greenfoot\lib\richtextfx-fat-0.9.0.jar;D:\other application\greenfoot\lib\guava-17.0.jar;D:\other application\greenfoot\lib\httpclient-4.1.1.jar;D:\other application\greenfoot\lib\httpcore-4.1.jar;D:\other application\greenfoot\lib\httpmime-4.1.1.jar;D:\other application\greenfoot\lib\javafx\lib\javafx.base.jar;D:\other application\greenfoot\lib\javafx\lib\javafx.controls.jar;D:\other application\greenfoot\lib\javafx\lib\javafx.fxml.jar;D:\other application\greenfoot\lib\javafx\lib\javafx.graphics.jar;D:\other application\greenfoot\lib\javafx\lib\javafx.media.jar;D:\other application\greenfoot\lib\javafx\lib\javafx.properties.jar;D:\other application\greenfoot\lib\javafx\lib\javafx.swing.jar;D:\other application\greenfoot\lib\javafx\lib\javafx.web.jar;D:\project kampus\greenfoot\tugas besar2
+-d
+D:\project kampus\greenfoot\tugas besar2\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+D:\project kampus\greenfoot\tugas besar2\meteor.java
+<---- end of javadoc command ---->
+Loading source file D:\project kampus\greenfoot\tugas besar2\meteor.java...
+D:\project kampus\greenfoot\tugas besar2\meteor.java:14: error: invalid method declaration; return type required
+    public Gun(ScoreKeeper scorekeeper)
+           ^
+1 error
