@@ -25,6 +25,6 @@ public class Building2 extends Actor
             int height = getImage().getHeight();
             getImage().scale(width/2,height/2);
         }
-        Greenfoot.playSound ("Explosion.wav");
+        Greenfoot.playSound ("explosion.mp3");
     }
 }

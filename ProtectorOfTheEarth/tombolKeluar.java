@@ -18,7 +18,7 @@ public class tombolKeluar extends Actor
         if(Greenfoot.mouseClicked(this))
         {
             Greenfoot.setWorld(new MenuAwal());
-            Greenfoot.stop();
+            
         }
     }
 }

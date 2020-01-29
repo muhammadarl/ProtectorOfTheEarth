@@ -13,6 +13,6 @@ public class House extends Actor
         World world = getWorld();
         world.addObject(new Explosion(), getX(), getY());
         world.removeObject(this);
-        Greenfoot.playSound ("Explosion.wav");
+        Greenfoot.playSound ("explosion.mp3");
     }
 }

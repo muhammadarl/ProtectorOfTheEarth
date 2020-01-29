@@ -8,7 +8,7 @@
  */
 public class MenuAwal extends World
 {
-    public static final GreenfootSound start = new GreenfootSound("start.wav");
+    public static final GreenfootSound start = new GreenfootSound("startfix.mp3");
     /**
      * Constructor for objects of class MenuAwal.
      * 
@@ -31,9 +31,12 @@ public class MenuAwal extends World
         addObject(keluar,630,370);
         info information = new info();
         addObject(information,930,20);
-        
 
         
+    }
+    public void act()
+    {
+        ProtectorOfTheEarth.gameover.stop();
     }
     private void start()
     {
