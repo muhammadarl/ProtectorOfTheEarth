@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=ProtectorOfTheEarth
-comment0.text=\r\n\ meteor\ rain\r\n\ Game\ sederhana\ mempertahankan\ kota\ dari\ hujan\ meteor\!\r\n\ Cara\ Bermain\:\r\n\ Mouse\ \=\ kontrol;\ mouse\ klik\ \=\ Tembak\!\r\n\ \r\n\ Author\:\ Muhammad\ Syiarul\r\n\ \r\n
+comment0.text=\r\n\ ProtectorOfTheEarth\r\n\ Game\ sederhana\ mempertahankan\ kota\ dari\ hujan\ meteor\!\r\n\ Cara\ Bermain\:\r\n\ Mouse\ \=\ kontrol;\ mouse\ klik\ \=\ Tembak\!\r\n\ \r\n\ Author\:\ Muhammad\ Syiarul\r\n\ \r\n
 comment1.params=
 comment1.target=int\ scoreOfmeteors()
 comment10.params=

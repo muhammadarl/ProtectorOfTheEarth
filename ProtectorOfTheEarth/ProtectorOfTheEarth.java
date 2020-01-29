@@ -1,7 +1,7 @@
 import greenfoot.*;
 import java.util.Calendar;
 /**
- * meteor rain
+ * ProtectorOfTheEarth
  * Game sederhana mempertahankan kota dari hujan meteor!
  * Cara Bermain:
  * Mouse = kontrol; mouse klik = Tembak!
@@ -18,8 +18,8 @@ public class ProtectorOfTheEarth extends World
     private int level = 0;
     private int maxmeteorsPerLevel = 5;
     public static int scoreOfmeteors = 10;
-    GreenfootSound BGM = new GreenfootSound("BGM.wav");
-    public static final GreenfootSound gameover = new GreenfootSound("game_over.wav");
+    GreenfootSound BGM = new GreenfootSound("bgm.mp3");
+    public static final GreenfootSound gameover = new GreenfootSound("game_over.mp3");
     public static int scoreOfmeteors()
     {
         return scoreOfmeteors();
