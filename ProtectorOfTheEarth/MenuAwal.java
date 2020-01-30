@@ -8,7 +8,7 @@
  */
 public class MenuAwal extends World
 {
-    public static final GreenfootSound start = new GreenfootSound("startfix.mp3");
+    public static final GreenfootSound start = new GreenfootSound("introf.wav");
     /**
      * Constructor for objects of class MenuAwal.
      * 
@@ -17,7 +17,7 @@ public class MenuAwal extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(950, 439, 1);
-        start();
+        intro();
         prepare();
     }
     
@@ -36,10 +36,11 @@ public class MenuAwal extends World
     }
     public void act()
     {
-        ProtectorOfTheEarth.gameover.stop();
+        
     }
-    private void start()
+    private void intro()
     {
-        start.setVolume(90);
-    }   
+        start.setVolume(60);
+        start.playLoop();
+    }
 }

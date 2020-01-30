@@ -13,16 +13,7 @@ public class EndDisplay extends Actor
     public static final float FONT_SIZE = 48.0f;
     public EndDisplay()
     {
-        GreenfootImage image = new GreenfootImage(WIDTH, HEIGHT);
-        image.setColor(new Color(0,128,128,100));
-        image.fillRect(0,0,WIDTH,HEIGHT);
-        image.setColor(new Color(255,255,255,100));
-        image.fillRect(5,5,WIDTH-10,HEIGHT-10);
-        Font font = image.getFont();
-        font = font.deriveFont(FONT_SIZE);
-        image.setFont(font);
-        image.setColor(Color.WHITE);
-        image.drawString("Game Over", WIDTH/2-135, HEIGHT/2);
+        GreenfootImage image = new GreenfootImage("enddisplay.png");
         setImage(image);
     }
     

@@ -7,7 +7,7 @@ import greenfoot.*;
  */
 public class Gun extends Actor
 {
-    GreenfootSound meteor = new GreenfootSound("EnergyGun.mp3");
+    GreenfootSound meteor = new GreenfootSound("gunf.mp3");
     private ScoreKeeper gunScoreKeeper;
     public Gun(ScoreKeeper scorekeeper)
     {
@@ -32,7 +32,7 @@ public class Gun extends Actor
             {
                 meteor.destroy();
                 gunScoreKeeper.incrementScore(ProtectorOfTheEarth.scoreOfmeteors);
-                Greenfoot.playSound ("MetalExplosion.mp3");
+                Greenfoot.playSound ("Explosio1.mp3");
             }
         }
     }

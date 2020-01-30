@@ -17,7 +17,7 @@ public class Building2 extends Actor
         {
             world.addObject(new Explosion(), getX(), getY());
             world.removeObject(this);
-            
+            Greenfoot.playSound("Explosio1.mp3");
         }
         else
         {
@@ -25,6 +25,5 @@ public class Building2 extends Actor
             int height = getImage().getHeight();
             getImage().scale(width/2,height/2);
         }
-        Greenfoot.playSound ("explosion.mp3");
     }
 }

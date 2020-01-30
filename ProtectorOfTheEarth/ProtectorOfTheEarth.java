@@ -18,8 +18,8 @@ public class ProtectorOfTheEarth extends World
     private int level = 0;
     private int maxmeteorsPerLevel = 5;
     public static int scoreOfmeteors = 10;
-    GreenfootSound BGM = new GreenfootSound("bgm.mp3");
-    public static final GreenfootSound gameover = new GreenfootSound("game_over.mp3");
+    GreenfootSound BGM = new GreenfootSound("crowdfix.mp3");
+    public static final GreenfootSound gameover = new GreenfootSound("gameover.wav");
     public static int scoreOfmeteors()
     {
         return scoreOfmeteors();
@@ -40,18 +40,19 @@ public class ProtectorOfTheEarth extends World
         //prepare();
         
         
+        
     }
     
     private void BGM()
     {
         BGM.playLoop();
-        BGM.setVolume(40);
+        BGM.setVolume(50);
     }
     
     private void gameover()
     {
         gameover.playLoop();
-        gameover.setVolume(60);
+        gameover.setVolume(80);
     }
     public void createCity()
     {
@@ -158,7 +159,7 @@ public class ProtectorOfTheEarth extends World
         {
             HomesLeft = HomesLeft + buildingList.size();
         }
-        
+        MenuAwal.start.stop();
         //nyawa
         if(HomesLeft == 0)
         {
@@ -167,13 +168,14 @@ public class ProtectorOfTheEarth extends World
             addObject(mainlagi,350, 370);
             tombolKeluar keluar = new tombolKeluar();
             addObject(keluar,600,370);
-            addObject(new EndDisplay(), getWidth()/2, getHeight()/2);
+            addObject(new EndDisplay(), getWidth()/2, 170);
             BGM.stop();
             gameover();
             return;
         }else{
             BGM();
             ProtectorOfTheEarth.gameover.stop();
+            
         }
         //pertambahan kesulitan
         actIteration = actIteration + 1;

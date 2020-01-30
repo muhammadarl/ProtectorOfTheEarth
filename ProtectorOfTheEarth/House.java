@@ -8,11 +8,13 @@ import greenfoot.*;
  */
 public class House extends Actor
 {
+    
     public void destroy()
     {
         World world = getWorld();
         world.addObject(new Explosion(), getX(), getY());
         world.removeObject(this);
-        Greenfoot.playSound ("explosion.mp3");
+        Greenfoot.playSound("Explosio1.mp3");
     }
+    
 }

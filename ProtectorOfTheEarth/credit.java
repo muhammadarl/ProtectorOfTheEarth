@@ -19,6 +19,9 @@ public class credit extends World
         super(950, 439, 1);
         tombolKembali kembali = new tombolKembali();
         addObject(kembali,50,400);
+        tombolgameasset gameassets = new tombolgameasset();
+        addObject(gameassets,870,410);
+        
         
     }
 }
